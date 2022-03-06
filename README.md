@@ -1,4 +1,3 @@
-
 <p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 7.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
@@ -956,7 +955,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
   </tr>
   <tr>
    <td>
-    &lt; 
+    < 
    </td>
    <td>
     Less than
@@ -972,7 +971,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
   </tr>
   <tr>
    <td>
-    &lt;= 
+    <= 
    </td>
    <td>
     Less than or equal
@@ -980,7 +979,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
   </tr>
   <tr>
    <td>
-    &lt;> 
+    <> 
    </td>
    <td>
     Not equal. <strong>Note: </strong>In some versions of SQL this operator may be written as !=
@@ -1122,7 +1121,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     **<span style="text-decoration:underline;">NULL Value:</span> **
 
 
-    It is not possible to test for NULL values with comparison operators, such as =, &lt;, or &lt;>. We will have to use the IS NULL and IS NOT NULL operators instead. 
+    It is not possible to test for NULL values with comparison operators, such as =, <, or <>. We will have to use the IS NULL and IS NOT NULL operators instead. 
 
 
     **Syntax – **
@@ -1251,7 +1250,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FROM _table_name _
 
 
-        WHERE ROWNUM &lt;= _number_; 
+        WHERE ROWNUM <= _number_; 
 
 
     *In case the interviewer asks other than the TOP, rest are also correct. (Diff. DB Systems) **Ex – **
