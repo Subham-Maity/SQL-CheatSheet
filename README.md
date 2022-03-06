@@ -1,38 +1,13 @@
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 7.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
-**Credit : @code.xam  (Follow : instagram)**
 
-**                  @gitxam (Follow : instagram)  **
-
-**                   @javaxam (Follow : instagram)  **
-
-**Founder:  Subham** 
-
-<p style="text-align: right">
-<strong><span style="text-decoration:underline;">DBMS & SQL NOTES</span> </strong></p>
+## <p style="text-align: right">
+<span style="text-decoration:underline;">DBMS & SQL NOTES</span> </p>
 
 
 
     **<span style="text-decoration:underline;">Database:</span> **A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.  \
  \
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
 
 
 
@@ -63,15 +38,6 @@
     7. Security problems 
 
 
-    
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-
     **<span style="text-decoration:underline;">ER diagram:</span> **
 
 
@@ -83,14 +49,6 @@
 
 
         ● An ER diagram is mainly composed of the following three components- Entity Sets, Attributes and Relationship Set. 
-
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
-
 
 
     ● Roll_no is a primary key that can identify each entity uniquely.
@@ -227,21 +185,11 @@
 
         **● Primary Key - **A primary key is a candidate key that the database designer selects while designing the database. Primary Keys are unique and NOT NULL. 
 
-<p style="text-align: right">
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
-</p>
-
-
 
         **● Alternate Key - **Candidate keys that are left unimplemented or unused after implementing the primary key are called as alternate keys. 
 
 
-        **● Foreign Key - **An attribute ‘X’ is called as a foreign key to some other attribute ‘Y’ when its values are dependent on the values of attribute ‘Y’. The relation in which attribute ‘Y’ is present is called as the referenced relation. The relation in which attribute ‘X’ is present is called as the referencing relation. 
+        **● Foreign Key - **An attribute ‘X’ is called as a foreign key to some other attribute ‘Y’ when its values are dependent on the values of attribute ‘Y’. The relation in which attribute ‘Y’ is present is called the referenced relation. The relation in which attribute ‘X’ is present is called the referencing relation. 
 
 
         **● Composite Key - **A primary key composed of multiple attributes and not just a single attribute is called a composite key. 
@@ -292,10 +240,12 @@
         `o `None of the functional dependencies that hold on the original relation are lost. **<code>o </code></strong>The sub relations still hold or satisfy the functional dependencies of the original relation. 
 
 
-    **Types of Decomposition: **
+## 
+    Types of Decomposition: 
 
 
-    **● Lossless Join Decomposition: **
+### 
+    ● Lossless Join Decomposition: 
 
 
             `o `Consider there is a relation R which is decomposed into sub relations R1, R2, …., Rn. 
@@ -307,7 +257,8 @@
             **<code>o </code></strong>For lossless join decomposition, we always have- R1 ⋈ R2 ⋈ R3 ……. ⋈ Rn = R where ⋈ is a natural join operator 
 
 
-    **● Lossy Join Decomposition: **
+### 
+    ● Lossy Join Decomposition: 
 
 
             `o `Consider there is a relation R which is decomposed into sub relations R1, R2, …., Rn.
@@ -319,7 +270,8 @@
             `o `For lossy join decomposition, we always have- R1 ⋈ R2 ⋈ R3 ……. ⋈ Rn ⊃ R where ⋈ is a natural join operator 
 
 
-    **<span style="text-decoration:underline;">Normalization:</span> **
+### 
+    <span style="text-decoration:underline;">Normalization:</span> 
 
 
     In DBMS, database normalization is a process of making the database consistent by- 
@@ -331,12 +283,15 @@
     ● Ensuring the integrity of data through lossless decomposition 
 
 
-    **Normal Forms: **
+### 
+    Normal Forms: 
 
 
+#### 
         ● **First Normal Form (1NF) - **A given relation is called in First Normal Form (1NF) if each cell of the table contains only an atomic value i.e. if the attribute of every tuple is either single valued or a null value. 
 
 
+#### 
         ● **Second Normal Form (2NF) - **A given relation is called in Second Normal Form (2NF) if and only if 
 
 
@@ -349,6 +304,7 @@
             A → B is called a **partial dependency **if and only if- A is a subset of some candidate key and B is a non-prime attribute. 
 
 
+#### 
         ● **Third Normal Form (3NF) - **A given relation is called in Third Normal Form (3NF) if and only if 
 
 
@@ -361,19 +317,15 @@
             A → B is called a **transitive dependency **if and only if- A is not a super key and B is a non-prime attribute. 
 
 
+#### 
         ● **Boyce-Codd Normal Form - **A given relation is called in BCNF if and only if `o `Relation already exists in 3NF. 
 
 
             `o `For each non-trivial functional dependency ‘A → B’, A is a super key of the relation.
 
 
-    
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-**<span style="text-decoration:underline;">Transaction:</span> **
+### 
+    **<span style="text-decoration:underline;">Transaction:</span> **
 
 
     Transaction is a single logical unit of work formed by a set of operations. **Operations in Transaction: **
@@ -385,18 +337,12 @@
         ● **Write Operation – Write(A) **will write the updated value of ‘A’ from the buffer to the database. 
 
 
-    **Transaction States: **
+### 
+    Transaction States: 
 
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
-
-
-
-    **● Active State – **
+#### 
+    ● Active State – 
 
 
         `o `This is the first state in the life cycle of a transaction. 
@@ -408,7 +354,8 @@
             **<code>o </code></strong>All the changes made by the transaction now are stored in the buffer in main memory. 
 
 
-    **● Partially Committed State – **
+#### 
+    ● Partially Committed State – 
 
 
             `o `After the last instruction of the transaction has been executed, it enters into a partially committed state. 
@@ -421,7 +368,8 @@
             **<code>o </code></strong>It is not considered fully committed because all the changes made by the transaction are still stored in the buffer in main memory. 
 
 
-    **● Committed State – **
+#### 
+    ● Committed State – 
 
 
             `o `After all the changes made by the transaction have been successfully stored into the database, it enters into a committed state. 
@@ -430,12 +378,14 @@
         **<code>o </code></strong>Now, the transaction is considered to be fully committed. 
 
 
-    **● Failed State – **
+#### 
+    ● Failed State – 
 
 
             `o `When a transaction is getting executed in the active state or partially committed state and some failure occurs due to which it becomes impossible to continue the execution, it enters into a failed state. 
 
 
+#### 
     ● **Aborted State – **
 
 
@@ -445,7 +395,11 @@
             `o `To undo the changes made by the transaction, it becomes necessary to roll back the transaction. 
 
 
-    `o `After the transaction has rolled back completely, it enters into an aborted state. ● **Terminated State – **
+    `o `After the transaction has rolled back completely, it enters into an aborted state. 
+
+
+#### 
+    ● **Terminated State – **
 
 
         `o `This is the last state in the life cycle of a transaction. 
@@ -454,12 +408,14 @@
         `o `After entering the committed state or aborted state, the transaction finally enters into a terminated state where its life cycle finally comes to an end. 
 
 
-    **<span style="text-decoration:underline;">ACID Properties:</span> **
+### 
+    <span style="text-decoration:underline;">ACID Properties:</span> 
 
 
-    To ensure the consistency of the database, certain properties are followed by all the transactions occurring in the system. These properties are called as **ACID Properties **of a transaction. 
+    To ensure the consistency of the database, certain properties are followed by all the transactions occurring in the system. These properties are called ACID** Properties **of a transaction. 
 
 
+#### 
     ● **Atomicity – **
 
 
@@ -469,6 +425,7 @@
         `o `In other words, it ensures that no transaction occurs partially. 
 
 
+#### 
     ● **Consistency – **
 
 
@@ -478,6 +435,7 @@
             `o `In other words, it ensures that the database remains consistent before and after the transaction. 
 
 
+#### 
     ● **Isolation – **
 
 
@@ -487,6 +445,7 @@
             `o `The resultant state of the system after executing all the transactions is the same as the state that would be achieved if the transactions were executed serially one after the other. 
 
 
+#### 
     ● **Durability – **
 
 
@@ -496,73 +455,88 @@
             `o `It also ensures that these changes exist permanently and are never lost even if there occurs a failure of any kind. 
 
 
-    **<span style="text-decoration:underline;">Schedules:</span> **
+### 
+    <span style="text-decoration:underline;">Schedules:</span> 
 
 
-    The order in which the operations of multiple transactions appear for execution is called as a schedule. 
+    The order in which the operations of multiple transactions appear for execution is called a schedule. 
 
 
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
-
-
-    **● Serial Schedules – **
+#### 
+    ● Serial Schedules – 
 
 
         `o `All the transactions execute serially one after the other. 
 
 
-    `o `When one transaction executes, no other transaction is allowed to execute. **<code>o </code></strong>Serial schedules are always- Consistent, Recoverable, Cascadeless and Strict. <strong>● Non-Serial Schedules – </strong>
+    `o `When one transaction executes, no other transaction is allowed to execute. **<code>o </code></strong>Serial schedules are always- Consistent, Recoverable, Cascadeless and Strict. 
+
+
+#### 
+    ● Non-Serial Schedules – 
 
 
         `o `Multiple transactions execute concurrently. 
 
 <p style="text-align: right">
-<strong><code>o </code></strong>Operations of all the transactions are inter leaved or mixed with each other.</p>
+<strong><code>o </code></strong>Operations of all the transactions are interleaved or mixed with each other.</p>
 
 
 
             **<code>o </code></strong>Non-serial schedules are <strong>not </strong>always- Consistent, Recoverable, Cascadeless and Strict. 
 
 
-    **Serializability – **
+### 
+    Serializability – 
 
 
-    ● Some non-serial schedules may lead to inconsistency of the database. **● **Serializability is a concept that helps to identify which non-serial schedules are correct and will maintain the consistency of the database. 
+#### 
+    ● Some non-serial schedules may lead to inconsistency of the database.
 
 
-    **● Serializable Schedules – **
+####  ● Serializability is a concept that helps to identify which non-serial schedules are correct and will maintain the consistency of the database. 
 
 
-        `o `If a given non-serial schedule of ‘n’ transactions is equivalent to some serial schedule of ‘n’ transactions, then it is called as a serializable schedule. 
+#### 
+    ● Serializable Schedules – 
+
+
+        `o `If a given non-serial schedule of ‘n’ transactions is equivalent to some serial schedule of ‘n’ transactions, then it is called a serializable schedule. 
 
 
             **<code>o </code></strong>Serializable schedules are always- Consistent, Recoverable, Cascadeless and Strict. 
 
 
-    **Types of Serializability – **
+## 
+    Types of Serializability – 
 
 
+### 
         **● Conflict Serializability **- If a given non-serial schedule can be converted into a serial schedule by swapping its non-conflicting operations, then it is called a conflict serializable schedule. 
 
 
+### 
         **● View Serializability - **If a given schedule is found to be viewed as equivalent to some serial schedule, then it is called a view serializable schedule. 
 
 
-    **Non-Serializable Schedules – **
+### 
+    Non-Serializable Schedules – 
 
 
-    ● A non-serial schedule which is not serializable is called a non-serializable schedule. ● A non-serializable schedule is not guaranteed to produce the same effect as produced by some serial schedule on any consistent database. 
+#### 
+    ● A non-serial schedule which is not serializable is called a non-serializable schedule. 
 
 
+#### 
+    ● A non-serializable schedule is not guaranteed to produce the same effect as produced by some serial schedule on any consistent database. 
+
+
+#### 
         **● **Non-serializable schedules- may or may not be consistent, may or may not be recoverable. 
 
 
-    **● Irrecoverable Schedules – **
+### 
+    ● Irrecoverable Schedules – 
 
 
         If in a schedule, 
@@ -571,7 +545,8 @@
         `o `A transaction performs a dirty read operation from an uncommitted transaction `o `And commits before the transaction from which it has read the value then such a schedule is known as an Irrecoverable Schedule. 
 
 
-    **● Recoverable Schedules – **
+#### 
+    ● Recoverable Schedules – 
 
 
         If in a schedule, 
@@ -583,16 +558,20 @@
         then such a schedule is known as a Recoverable Schedule.
 
 
-    **Types of Recoverable Schedules – **
+## 
+    Types of Recoverable Schedules – 
 
 
+#### 
         **● Cascading Schedule - **If in a schedule, failure of one transaction causes several other dependent transactions to rollback or abort, then such a schedule is called as a Cascading Schedule or Cascading Rollback or Cascading Abort. 
 
 
-        **● Cascadeless Schedule - **If in a schedule, a transaction is not allowed to read a data item until the last transaction that has written it is committed or aborted, then such a schedule is called as a Cascadeless Schedule. 
+#### 
+        **● Cascadeless Schedule - **If in a schedule, a transaction is not allowed to read a data item until the last transaction that has written it is committed or aborted, then such a schedule is called a Cascadeless Schedule. 
 
 
-        **● Strict Schedule - **If in a schedule, a transaction is neither allowed to read nor write a data item until the last transaction that has written it is committed or aborted, then such a schedule is called as a Strict Schedule. 
+#### 
+        **● Strict Schedule - **If in a schedule, a transaction is neither allowed to read nor write a data item until the last transaction that has written it is committed or aborted, then such a schedule is called a Strict Schedule. 
 
 
     **<span style="text-decoration:underline;">Relational Algebra:</span> **
@@ -631,7 +610,7 @@
     <strong>X (Cross Product) </strong>
    </td>
    <td>
-    Cross product of relations, returns <strong>m*n </strong>rows where m and n are number of rows in R1 and R2 respectively.
+    Cross product of relations, returns <strong>m*n </strong>rows where m and n are the number of rows in R1 and R2 respectively.
    </td>
   </tr>
   <tr>
@@ -745,13 +724,14 @@
 
 
 
-    **<span style="text-decoration:underline;">File Structures:</span> **
+## 
+    <span style="text-decoration:underline;">File Structures:</span> 
 
 
         ● **Primary Index: **A primary index is an ordered file, records of fixed length with two fields. First field is the same as the primary key as a data file and the second field is a pointer to the data block, where the key is available. The average number of block accesses using index = **log<sub>2 </sub>Bi + 1**, where Bi = number of index blocks. 
 
 
-        ● **Clustering Index: **Clustering index is created on data file whose records are physically ordered on a non-key field (called Clustering field). 
+        ● **Clustering Index: **Clustering index is created on a data file whose records are physically ordered on a non-key field (called Clustering field). 
 
 
         ● **Secondary Index: **Secondary index provides secondary means of accessing a file for which primary access already exists. 
@@ -765,7 +745,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     **Properties of B-Trees: **
 
 
-    Root of B-tree can have children between **2 **and **P**, where P is Order of tree. **Order of tree **– Maximum number of children a node can have. 
+    Root of the B-tree can have children between **2 **and **P**, where P is Order of tree. **Order of tree **– Maximum number of children a node can have. 
 
 
     Internal node can have children between ⌈ **P/2 **⌉ and **P **
@@ -780,17 +760,18 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     In B+ trees, the structure of leaf and non-leaf are different, so their order is. Order of non-leaf will be higher as compared to leaf nodes. 
 
 
-    Searching time will be less in B+ trees, since it doesn’t have record pointers in non-leaf because of which depth will decrease. 
-
-<p style="text-align: right">
-<strong><span style="text-decoration:underline;">SQL</span> </strong></p>
+    Searching time will be less in B+ trees, since it doesn’t have record pointers in non-leaf trees because of which depth will decrease. 
 
 
+## <p style="text-align: right">
+<span style="text-decoration:underline;">SQL</span> </p>
 
-    **<span style="text-decoration:underline;">DDL:</span> **
 
 
-    DDL is short name of **Data Definition Language, **which deals with database schemas and descriptions, of how the data should reside in the database. 
+### DDL: 
+
+
+    DDL is the short name of **Data Definition Language, **which deals with database schemas and descriptions, of how the data should reside in the database. 
 
 
         ● CREATE - to create a database and its objects like (table, index, views, store procedure, function, and triggers) 
@@ -808,10 +789,11 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● RENAME - rename an object 
 
 
-    **<span style="text-decoration:underline;">DML:</span> **
+### 
+    <span style="text-decoration:underline;">DML:</span> 
 
 
-    DML is short name of **Data Manipulation Language **which deals with data manipulation and includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, delete and update data in a database. 
+    DML is the short name of **Data Manipulation Language **which deals with data manipulation and includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, delete and update data in a database. 
 
 
     ● SELECT - retrieve data from a database 
@@ -829,10 +811,11 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● MERGE - UPSERT operation (insert or update) 
 
 
-    **<span style="text-decoration:underline;">DCL:</span>**
+### 
+    DCL:
 
 
-    DCL is short name of **Data Control Language **which includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system. 
+    DCL is the short name of **Data Control Language **which includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system. 
 
 
     ● GRANT - allow users access privileges to the database 
@@ -841,10 +824,11 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● REVOKE - withdraw users access privileges given by using the GRANT command 
 
 
-    **<span style="text-decoration:underline;">TCL:</span> **
+### 
+    <span style="text-decoration:underline;">TCL:</span> 
 
 
-    TCL is short name of Transaction Control Language which deals with a transaction within a database. 
+    TCL is the short name of Transaction Control Language which deals with a transaction within a database. 
 
 
     ● COMMIT - commits a Transaction 
@@ -859,7 +843,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     SQL is a standard language for storing, manipulating and retrieving data in databases. 
 
 
-    **<span style="text-decoration:underline;">SELECT:</span> **
+### 
+    <span style="text-decoration:underline;">SELECT:</span> 
 
 
     The SELECT statement is used to select data from a database. 
@@ -883,7 +868,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● SELECT CustomerName, City FROM Customers; 
 
 
-    **<span style="text-decoration:underline;">SELECT DISTINCT:</span> **
+### 
+    <span style="text-decoration:underline;">SELECT DISTINCT:</span> 
 
 
     The SELECT DISTINCT statement is used to return only distinct (different) values. **Syntax – **
@@ -901,7 +887,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● SELECT DISTINCT Country FROM Customers; 
 
 
-    **<span style="text-decoration:underline;">WHERE:</span> **
+### 
+    <span style="text-decoration:underline;">WHERE:</span> 
 
 
     The WHERE clause is used to filter records. 
@@ -955,7 +942,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
   </tr>
   <tr>
    <td>
-    < 
+    &lt; 
    </td>
    <td>
     Less than
@@ -971,7 +958,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
   </tr>
   <tr>
    <td>
-    <= 
+    &lt;= 
    </td>
    <td>
     Less than or equal
@@ -979,7 +966,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
   </tr>
   <tr>
    <td>
-    <> 
+    &lt;> 
    </td>
    <td>
     Not equal. <strong>Note: </strong>In some versions of SQL this operator may be written as !=
@@ -989,7 +976,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
 
 
 
-    **<span style="text-decoration:underline;">AND, OR and NOT:</span> **
+### 
+    <span style="text-decoration:underline;">AND, OR and NOT:</span> 
 
 
     The WHERE clause can be combined with AND, OR, and NOT operators. 
@@ -1049,7 +1037,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         WHERE Country='Germany' AND (City='Berlin' OR City='München'); 
 
 
-    **<span style="text-decoration:underline;">ORDER BY:</span> **
+### 
+    <span style="text-decoration:underline;">ORDER BY:</span> 
 
 
     The ORDER BY keyword is used to sort the result-set in ascending or descending order. 
@@ -1085,7 +1074,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         ORDER BY Country ASC, CustomerName DESC; 
 
 
-    **<span style="text-decoration:underline;">INSERT INTO:</span> **
+### 
+    <span style="text-decoration:underline;">INSERT INTO:</span> 
 
 
     The INSERT INTO statement is used to insert new records in a table. 
@@ -1121,7 +1111,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     **<span style="text-decoration:underline;">NULL Value:</span> **
 
 
-    It is not possible to test for NULL values with comparison operators, such as =, <, or <>. We will have to use the IS NULL and IS NOT NULL operators instead. 
+    It is not possible to test for NULL values with comparison operators, such as =, &lt;, or &lt;>. We will have to use the IS NULL and IS NOT NULL operators instead. 
 
 
     **Syntax – **
@@ -1157,7 +1147,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         WHERE Address IS NULL; 
 
 
-    **<span style="text-decoration:underline;">UPDATE:</span> **
+### 
+    <span style="text-decoration:underline;">UPDATE:</span> 
 
 
     The UPDATE statement is used to modify the existing records in a table. **Syntax – **
@@ -1184,7 +1175,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         WHERE CustomerID = 1;
 
 
-    **<span style="text-decoration:underline;">DELETE:</span> **
+### 
+    <span style="text-decoration:underline;">DELETE:</span> 
 
 
     The DELETE statement is used to delete existing records in a table. 
@@ -1205,7 +1197,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste'; 
 
 
-    **<span style="text-decoration:underline;">SELECT TOP:</span> **
+### 
+    <span style="text-decoration:underline;">SELECT TOP:</span> 
 
 
     The SELECT TOP clause is used to specify the number of records to return. **Syntax – **
@@ -1250,7 +1243,7 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FROM _table_name _
 
 
-        WHERE ROWNUM <= _number_; 
+        WHERE ROWNUM &lt;= _number_; 
 
 
     *In case the interviewer asks other than the TOP, rest are also correct. (Diff. DB Systems) **Ex – **
@@ -1271,7 +1264,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FETCH FIRST 3 ROWS ONLY;
 
 
-    **<span style="text-decoration:underline;">Aggregate Functions:</span> **
+### 
+    <span style="text-decoration:underline;">Aggregate Functions:</span> 
 
 
     **MIN(): **
@@ -1298,7 +1292,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FROM Products; 
 
 
-    **MAX(): **
+#### 
+    MAX(): 
 
 
     The MAX() function returns the largest value of the selected column. **Syntax – **
@@ -1322,7 +1317,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FROM Products; 
 
 
-    **COUNT(): **
+#### 
+    COUNT(): 
 
 
     The COUNT() function returns the number of rows that matches a specified criterion. **Syntax – **
@@ -1346,7 +1342,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FROM Products; 
 
 
-    **AVG():**
+#### 
+    AVG():
 
 
     The AVG() function returns the average value of a numeric column. 
@@ -1373,7 +1370,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FROM Products; 
 
 
-    **SUM(): **
+#### 
+    SUM(): 
 
 
     The SUM() function returns the total sum of a numeric column. 
@@ -1497,7 +1495,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
 
 
 
-    **<span style="text-decoration:underline;">IN:</span> **
+#### 
+    <span style="text-decoration:underline;">IN:</span> 
 
 
     The IN operator allows you to specify multiple values in a WHERE clause. The IN operator is a shorthand for multiple OR conditions. 
@@ -1539,7 +1538,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         WHERE Country IN (SELECT Country FROM Suppliers); 
 
 
-    **<span style="text-decoration:underline;">BETWEEN:</span> **
+#### 
+    <span style="text-decoration:underline;">BETWEEN:</span> 
 
 
     The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. 
@@ -1575,7 +1575,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     A JOIN clause is used to combine rows from two or more tables, based on a related column between them. 
 
 
-    **INNER JOIN: **
+#### 
+    INNER JOIN: 
 
 
     The INNER JOIN keyword selects records that have matching values in both tables. **Syntax – **
@@ -1605,7 +1606,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID; 
 
 
-    **LEFT (OUTER) JOIN: **
+#### 
+    LEFT (OUTER) JOIN: 
 
 
     The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match. 
@@ -1641,7 +1643,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         ORDER BY Customers.CustomerName;
 
 
-    **RIGHT (OUTER) JOIN: **
+#### 
+    RIGHT (OUTER) JOIN: 
 
 
     The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match. 
@@ -1671,7 +1674,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID ORDER BY Orders.OrderID; 
 
 
-    **FULL (OUTER) JOIN: **
+#### 
+    FULL (OUTER) JOIN: 
 
 
     The FULL OUTER JOIN keyword returns all records when there is a match in left (table1) or right (table2) table records. 
@@ -1707,7 +1711,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         FULL OUTER JOIN Orders ON Customers.CustomerID=Orders.CustomerID ORDER BY Customers.CustomerName; 
 
 
-    **<span style="text-decoration:underline;">UNION:</span> **
+#### 
+    <span style="text-decoration:underline;">UNION:</span> 
 
 
     The UNION operator is used to combine the result-set of two or more SELECT statements.
@@ -1758,7 +1763,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         ORDER BY City; 
 
 
-    **<span style="text-decoration:underline;">GROUP BY:</span> **
+#### 
+    <span style="text-decoration:underline;">GROUP BY:</span> 
 
 
     The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country". 
@@ -1797,10 +1803,12 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         GROUP BY Country 
 
 
+#### 
         ORDER BY COUNT(CustomerID) DESC;
 
 
-    **<span style="text-decoration:underline;">HAVING:</span> **
+#### 
+    <span style="text-decoration:underline;">HAVING:</span> 
 
 
     The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions. 
@@ -1845,7 +1853,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         HAVING COUNT(CustomerID) > 5; 
 
 
-    **<span style="text-decoration:underline;">CREATE DATABASE:</span> **
+#### 
+    <span style="text-decoration:underline;">CREATE DATABASE:</span> 
 
 
     The CREATE DATABASE statement is used to create a new SQL database. **Syntax – **
@@ -1854,7 +1863,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● CREATE DATABASE _databasename_; 
 
 
-    **<span style="text-decoration:underline;">DROP DATABASE:</span> **
+#### 
+    <span style="text-decoration:underline;">DROP DATABASE:</span> 
 
 
     The DROP DATABASE statement is used to drop an existing SQL database. **Syntax – **
@@ -1863,7 +1873,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● DROP DATABASE _databasename_; 
 
 
-    **<span style="text-decoration:underline;">CREATE TABLE:</span> **
+#### 
+    <span style="text-decoration:underline;">CREATE TABLE:</span> 
 
 
     The CREATE TABLE statement is used to create a new table in a database.
@@ -1890,7 +1901,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
         ); 
 
 
-    **<span style="text-decoration:underline;">DROP TABLE:</span> **
+#### 
+    <span style="text-decoration:underline;">DROP TABLE:</span> 
 
 
     The DROP TABLE statement is used to drop an existing table in a database. **Syntax – **
@@ -1899,7 +1911,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● DROP TABLE _table_name_; 
 
 
-    **<span style="text-decoration:underline;">TRUNCATE TABLE:</span> **
+#### 
+    <span style="text-decoration:underline;">TRUNCATE TABLE:</span> 
 
 
     The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself. **Syntax – **
@@ -1908,7 +1921,8 @@ At every level , we have Key and Data Pointer and data pointer points to either 
     ● TRUNCATE TABLE _table_name_; 
 
 
-    **<span style="text-decoration:underline;">ALTER TABLE:</span> **
+#### 
+    <span style="text-decoration:underline;">ALTER TABLE:</span> 
 
 
     The ALTER TABLE statement is used to add, delete, or modify columns in an existing table. 
